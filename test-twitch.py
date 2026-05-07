@@ -73,6 +73,5 @@ for token in tokens:
     followers = get_follower_count(iden)
     print()
     print(f'{token:50s} - followed by {followers}')
-    if followers >= 0x18:
-        username = get_username(iden)
-        print(f'{token:50s} - username is {username}')
+    username = get_username(iden)
+    print(f'{token:50s} - username is {username}')
