@@ -1,6 +1,8 @@
 # Twitch Key Repository
 I've amassed collection of publicly available Twitch stream keys; tested one-by-one on 2026-05-05.
 
+I collected them and mapped who they belong to.  I also mapped their follower counts.  And of course, I tested them using a dummy payload made by FFmpeg.
+
 ## How to Reproduce
 Navigate to GitHub, then use your browser's DevTools to run the following scripts in succession:
 
@@ -73,6 +75,10 @@ copy(r.join('\n'))
 ```
 </details>
 
-Then download and run [`test-twitch.py`](./test-twitch.py), making sure to have installed the `requests` library.  Paste the lines you just copied into the program's standard input.
+Then download and run [`test-twitch.py`](./test-twitch.py), making sure to have installed:
+- the `requests` library, and
+- FFmpeg
+
+Paste the lines you just copied into the program's standard input.
 
 The output will look similar to [`twitch-keys.txt`](./twitch-keys.txt).
