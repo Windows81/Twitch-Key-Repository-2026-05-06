@@ -1,5 +1,5 @@
 # Twitch Key Repository
-I've amassed collection of publicly available Twitch stream keys; tested one-by-one on 2026-05-05.
+I've amassed a collection of publicly available Twitch stream keys; tested one-by-one on 2026-05-05.
 
 I collected them and mapped who they belong to.  I also mapped their follower counts.  And of course, I tested them using a dummy payload made by FFmpeg.
 
